@@ -1,0 +1,230 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.Workshops-main-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.newcollection{
+    padding: 70px 0px;
+}
+
+.Workshops-main-img{
+    height: 565px;
+}
+.card {
+    width: 100% !important;
+}
+.card img {
+    max-width: 100%;
+}
+
+#toplo { 
+    margin-right:10px
+}
+.navbar-brand1 {
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    margin-right: auto;
+   
+}
+.logo2 {
+    max-width: 100%;
+    height: auto;
+}
+#navbar2 {
+    min-height: 10px;
+}
+#menu1 {
+    gap:50px;   
+}
+.banner-card{
+    position: relative;
+}
+.banner-card img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.banner-card .banner-text {
+    position: absolute;
+    top: 0%;
+    color: white;
+    padding: 30%;
+}
+.banner-text h1 {
+    font-size: 400%;
+    gap: 20px;
+}
+.banner-text p {
+    font-size: 120%;
+}
+.banner-button {
+
+    width:fit-content;
+    box-shadow: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left:30%;
+    color:white;
+}
+#bests {
+    text-align:center;
+    margin-top: px;
+    background: none;
+    
+}
+#card1 {
+    width: 100%;
+    height:auto;
+}
+.card-container {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 20px;
+    outline:none;
+}
+.card {
+    width: 200px;
+    overflow: hidden;
+}
+#newbtn {
+    background-color: brown;
+    width:fit-content;
+    box-shadow: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color:white;
+    border: none;
+}
+.container-custom {
+    max-width: 1200px;
+    margin: 50px auto;
+  }
+#text-section {
+    padding: 20px;
+  }
+.img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+.img-grid img {
+        width: 100%;
+        height: 200px; /
+        object-fit: cover; 
+        border-radius: 8px;   
+} 
+#picleft {
+    height: 100%;
+    width: 100%;   
+}
+#picdown {
+    padding: 20px;
+    width: 600px;
+}
+#picside {
+    height: 150%;
+    width: 200%; 
+    object-fit: cover;   
+}
+.employees {
+    text-align: center;
+    padding: 20px;
+  }
+  
+.employees h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+.employee-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+.employee {
+    max-width: 350px;
+    text-align: center;
+    padding: 10px;
+  }
+.employee img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+  }
+  
+.employee h2 {
+    font-size: 0.9 rem;
+    margin-bottom: 20px;
+  }
+  
+.employee p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  .gallery-img {
+    width: 100%;
+    height: auto;
+  }
+#left-img {
+    height: 660px;
+}
+#upimg {
+    height: 313px;
+    margin-bottom: 30px;
+}
+#upimg, #left-img ,#upimg ,#beloimg , #beloimg1 {
+    object-fit: cover;
+}
+#beloimg {
+    height: 320px;
+}
+#beloimg1 {
+    height: 320px;
+}
+.conclusion {
+    background-image: url(/images/history.webp);
+    background-size: cover;
+    padding: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.conclusion h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.conclusion p {
+    color: white;
+    padding: 20px;
+}  
+body {
+    font-size: 16px;
+  }
+  
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px; 
+    }
+  }
